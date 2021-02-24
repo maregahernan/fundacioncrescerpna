@@ -1,0 +1,43 @@
+#carrusel{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    flex-direction: column;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .5);
+    margin:100px 0;
+    padding: 30px 0;
+   
+}
+
+.carousel{
+    width: 70%;
+}
+
+.titulo{
+    width: 90%;
+    border-bottom: 3px solid #67B8B5 ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0; width: 90%;
+    border-bottom: 3px solid #67B8B5 ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+
+}
+
+.titulo-galeria{
+    font-weight: bold;
+    color: #74B46D;
+    padding: 10px;
+}
+
+.boton{
+    background-color: inherit;
+}

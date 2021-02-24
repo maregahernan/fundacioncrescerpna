@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#areas{
+    width: 100%;
+    height: auto;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .5);
+    margin-bottom: 100px;
+}
+.container-areas{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+   
+}
+.titulo-areas{
+    width: 90%;
+    border-bottom: 3px solid #67B8B5 ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0; width: 90%;
+    border-bottom: 3px solid #67B8B5 ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+}
+    .titulo-areas h2{
+        font-weight: bold;
+        color: #74B46D;
+        padding: 10px;
+    }
+
+.card-areas{
+    width: 85%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+    .card{
+        margin: 20px;
+        height: 500px;
+        margin: 20px;
+        padding:0;
+        box-shadow: 0 0 10px rgba(0, 0, 0, .5);
+        transition: all .2s;
+        
+    }
+        .card-img-top{
+            width: 150px;
+            height: 150px;
+            margin: 0;
+            padding: 0;
+        }
+        .card-body{
+            height: 350px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+            background-color: rgba(0, 0, 0, .1);
+            
+        }
+            .card-title{
+                text-align: center;
+                height: 20px;
+                margin: 0;
+                padding: 0;
+                color: #74B46D;
+                font-weight: bold;
+               
+            }
+            .card-text{
+                height: 200px;
+                padding: 0;
+                margin: 0;
+                text-align: center;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+            .btn-primary{
+                height:40px;
+               
+            }
+            .card-body a{
+                background-color: #67B8B5;
+                border: none;
+            }
+            .card-body a:hover{
+               background-color: #74B46D; ;
+            }
+
+            .card:hover{
+                height: 520px;
+                width: 220px;
+            }
