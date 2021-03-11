@@ -14,13 +14,9 @@
 }
 body{
     font-family: 'Poppins', sans-serif;
-    background: rgba(75, 207, 56, 1.0);
-background: -webkit-linear-gradient(top left, rgba(75, 207, 56, 1.0), rgba(86, 205, 222, 1.0));
-background: -moz-linear-gradient(top left, rgba(75, 207, 56, 1.0), rgba(86, 205, 222, 1.0));
-background: linear-gradient(to bottom right, rgba(75, 207, 56, 1.0), rgba(86, 205, 222, 1.0));
-    
-    
-
+ }
+.body-all{
+    background-color: #FFFFFF;
 }
 .menu {
     width: 40px;
@@ -93,7 +89,25 @@ background: linear-gradient(to bottom right, rgba(75, 207, 56, 1.0), rgba(86, 20
 
 }
 
-
+footer{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    color: #74B46D;
+    font-size: 10px;
+}     
+footer a{
+    margin:0px 5px;
+}      
+footer i{
+    color: #74B46D;
+    font-size: 10px;
+} 
+footer p{
+    margin: 0px 10px;
+    font-weight: bold;
+    font-size: 10px;
+}
 @media screen and (max-width:700px){
     .header{
         justify-content: flex-end;
@@ -128,3 +142,4 @@ background: linear-gradient(to bottom right, rgba(75, 207, 56, 1.0), rgba(86, 20
         transition: .2s all ease-in;
     }
 }
+

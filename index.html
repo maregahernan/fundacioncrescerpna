@@ -31,13 +31,12 @@
     </header>
     <section class="section-banner">
         <div class="div-redes">
-            <a href="https://www.facebook.com/crescer.parana/" target="blank" class="redes">
-                <i class='bx bxl-facebook-square'></i>            </a>
+            <a href="https://www.facebook.com/crescer.parana/" target="blank" class="redes"><i class='bx bxl-facebook-square'></i> </a>
+
             <a href="https://www.instagram.com/fundacion_crescer/?hl=es" target="blank" class="redes">
-                <i class='bx bxl-instagram-alt' ></i>            </a>
-            <a href="https://www.google.com/maps/place/Fundaci%C3%B3n+Crescer/@-31.7406619,-60.5193583,15z/data=!4m5!3m4!1s0x0:0x4db2c6c74abca82b!8m2!3d-31.7406619!4d-60.5193583" target="blank" class="redes">
-                <i class='bx bxs-map' ></i>
-            </a>            
+                <i class='bx bxl-instagram-alt' ></i></a>
+
+            <a href="https://www.google.com/maps/place/Fundaci%C3%B3n+Crescer/@-31.7406619,-60.5193583,15z/data=!4m5!3m4!1s0x0:0x4db2c6c74abca82b!8m2!3d-31.7406619!4d-60.5193583" target="blank" class="redes"><i class='bx bxs-map' ></i></a>            
         </div>
     </section>
 
@@ -73,7 +72,7 @@
     <section id="carrusel">
         <div class="titulo">
             <h2 class="titulo-galeria">
-                Galeria de fotos
+                Multimedia
             </h2>
         </div>
         <div id="carouselExampleControls" class="carousel slide"    data-bs-ride="carousel">
@@ -170,25 +169,76 @@
         <div class="containerContacto">
             <div class="contactoMensajes">
                 <h3>Mandanos un mensaje</h3>
-                <form class="form" action="https://formspree.io/f/xleoyrwa"   method="POST" >
+                <form class="form" action="https://formspree.io/f/xleoyrwa"  method="POST" >
+
                     <label>
-                        Your email:
-                        <input type="text" name="_replyto">
-                    </label>
-                    <label>
-                        Your message:
-                        <textarea name="message"></textarea>
+                             <input placeholder="Nombre y apellido" type="text" name="Nombre" required>
                     </label>
 
-                    <button type="submit">Send</button>
+                    <label>
+                             <input placeholder="Correo electronico" type="email" name="Mail" required>
+                    </label>
+                    <label>
+                             <input placeholder="Telefono" type="tel" name="Telefono">
+                    </label>
+                    <label>
+                             <textarea  placeholder="Escribe aqui tu mensaje" name="Mensaje"></textarea required>
+                    </label>
+
+                  <label>
+                    <button type="submit">Enviar</button>
+                  </label>
+                    
               </form>
             </div>
             <div class="contactoInfo">
-                <h3>Informacion de contacto</h3>
+                <div class="contactoTitulo">
+                    <h3>Información de contacto</h3>
+                </div>
                 
+                <div class="containerInfo">
+
+                    <div class="dir-info">
+                        <div class="info-container">
+                            <i class='bx bxs-map'></i>
+                            <p>Corrientes 258, Paraná - Entre Rios - Argentina.</p> 
+                        </div>           
+                    </div>
+
+                    <div class="correo-info">
+                        <div class="info-container">
+                            <i class='bx bx-mail-send'></i>
+                            <p>fundacion.crescer.pna@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="redes-info">
+                        <div class="info-icon">
+
+                            <a href="https://www.instagram.com/fundacion_crescer/?hl=es" target="blank"><i class='bx bxl-instagram' ></i></a>
+
+                            <a href="https://www.facebook.com/crescer.parana/" target="blank"><i class='bx bxl-facebook' ></i></a>
+
+                            <a href="https://twitter.com/FCrescer" target="blank"><i class='bx bxl-twitter'></i></a>
+
+                            <a href="https://www.youtube.com/channel/UCnSXAl2MHHchjbuQxGjE-5A" target="blank"><i class='bx bxl-youtube' ></i></a>
+                            
+                            
+                            
+                            
+
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </secction>
+
+    <footer>
+    Desarrollo:
+        <a href="https://www.linkedin.com/in/hmmarega/" target="blank"><i class='bx bxl-linkedin'></i></a>
+        <a href="https://github.com/maregahernan" target="blank"> <i class='bx bxl-github' ></i></a>
+        
+    </footer>
     
     <script src="./js/app.js"></script>
     <script src="./js/mostrar.js"></script>

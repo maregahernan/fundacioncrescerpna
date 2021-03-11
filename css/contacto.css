@@ -11,30 +11,211 @@
     height: auto;
     display: flex;
     flex-direction: column;
-    background-color: rgba(0, 0, 0, .1);
+    background-color: #FFFFFF;
     box-shadow: 0 0 10px rgba(0, 0, 0, .5);
+    margin-bottom: 50px;
+    padding-bottom: 20px;
 }
 
 .containerTitulo{
-    width: 100%;
+    justify-self: center;
+    align-self: center;
+    width: 90%;
     text-align: center;
+    border-bottom: 3px solid #67B8B5 ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0; 
 }
+    .containerTitulo h2{
+        padding: 15px;
+        color: #74B46D;
+        font-weight: bold;
+    }
 
 .containerContacto{
     width: 100%;
     display: flex;
     justify-content: space-between;
+    margin-top: 20px;
 }
     .contactoMensajes{
         width: 50%;
         text-align: center;
-    }   
-    .contactoInfo{
-        width: 50%;
-        text-align: center;
     }
+    .contactoMensajes h3{
+        padding-bottom: 20px;
+        color: #74B46D;
+        font-weight: bold;
+       
+    }   
+
+
     .form{
         width: 100%;
         display: flex;
         flex-direction: column;
     }
+    .form label input , textarea, button{
+        width: 70%;
+        background-color: inherit;
+        border: none;
+        border-bottom: 0.5px solid #67B8B5;
+        outline: none;
+    }
+    .form textarea{
+        max-height: 100px;
+        height: 70px;
+        min-height: 50px;
+        margin: 20px 0;
+     
+    }
+    form label input::placeholder , textarea::placeholder{
+        color: #67B8B5;
+        font-weight: bold;
+    }
+    form button{
+        color: #67B8B5;
+        transition: .2s all ease;
+        height: 40px;
+    }
+    form button:hover{
+        color: #74B46D;
+        font-weight: bold;
+        border-radius: 20px;
+        border: 1px solid;
+    }
+
+    form label input:focus::placeholder,textarea:focus::placeholder{
+        color: #74B46D;
+        font-weight: bold;
+    }
+
+    form label input:focus, textarea:focus{
+        color: #74B46D;
+    }
+
+
+.contactoInfo{
+    width: 50%;
+    height: auto;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+   }
+   
+    .contactoTitulo{
+       flex: 1;
+       width: 100%;
+    }
+    .contactoInfo h3{
+        width: 100%;
+        color: #74B46D;
+        font-weight: bold;
+        padding-bottom: 20px;
+        
+    }
+    .containerInfo{
+        flex: 2;
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;        
+    }
+     .dir-info , .correo-info{
+        display:flex;
+        color: #67B8B5;
+        font-weight: bold;
+        justify-content: center;
+        width: 100%;
+     }
+
+     .bx-mail-send , .bxs-map{
+         font-size: 25px;
+         margin-right: 20px;
+     }
+     
+
+.redes-info , .info-icon{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+   
+}
+    .info-container{
+        width: 80%;
+        display: flex;
+        margin-top: 30px;
+        
+    }
+.redes-info{
+    margin-top: 50px;
+}
+    .info-icon a{
+        font-size: 35px;
+    }
+
+    .info-icon i{
+        font-size: 30px;
+        color: #74B46D;
+        transition: .2s all ease;
+    }
+    .info-icon i:hover{
+        color: #67B8B5;
+
+        font-size: 35px;
+    }
+    .info-icon a:hover{
+        box-shadow: rgba(0, 0, 0, .5);
+    }
+
+@media screen and (max-width:700px){
+    .containerContacto{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .contactoMensajes{
+        margin-bottom: 30px;
+        width: 80%;
+        box-shadow: rgba(0, 0, 0, .5);
+    }
+    .contactoInfo{
+        margin-bottom: 30px;
+        width: 85%;
+        box-shadow: rgba(0, 0, 0, .5);
+    }
+    .info-container{
+        width: 70%;
+    }
+
+    .info-container{
+        width: 100%;
+    }
+    .
+    .contactoMensajes{
+        width: 85%;
+    }
+    .form{
+        width: 100%;
+    }
+    .form label input , textarea, button{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:500px){
+    .info-container{
+        width: 95%;
+        box-sizing: border-box;
+        
+    }
+
+    .info-container p{
+        font-size: 13px;
+    }
+}
+
